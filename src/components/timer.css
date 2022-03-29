@@ -6,9 +6,10 @@
   margin-top: auto;
 }
 .card {
-  border: 5px solid blue;
+  border: 5px solid rebeccapurple;
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 .card-time {
   color: hsl(345, 95%, 68%);
