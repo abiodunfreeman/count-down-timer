@@ -1,20 +1,36 @@
 #timer-container {
-  border: 3px solid red;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
-  align-self: center;
-  margin-top: auto;
-}
-.card {
-  border: 5px solid rebeccapurple;
-  display: flex;
-
-  flex-direction: column;
-  text-align: center;
-  color: white;
-}
-.card-time {
-  color: hsl(345, 95%, 68%);
-}
+    /* border: 3px solid red; */
+    display: grid;
+    grid-template-columns: repeat(4, minmax(auto, 1fr));
+    justify-content: center;
+    gap: 2rem;
+    align-self: center;
+    margin-top: auto;
+  }
+  #timer-container h3 {
+    grid-column: 1/-1;
+    color: white;
+    text-align: center;
+    align-self: center;
+  }
+  .card {
+    /* border: 5px solid rebeccapurple; */
+    display: flex;
+  
+    flex-direction: column;
+    text-align: center;
+    color: white;
+  }
+  .card p {
+    font-size: 14px;
+  }
+  .card-time {
+    color: hsl(345, 95%, 68%);
+  }
+  @media (max-width: 50px) {
+    #timer-container {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto 1fr 1fr;
+    }
+  }
+  
