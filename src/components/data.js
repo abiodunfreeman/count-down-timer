@@ -18,6 +18,10 @@ const event = [
     {
       name: "My Birthday",
       date:"11/07/2022"
+    },
+    {
+      name: "Easter",
+      date:"04/17/2022"
     }
   ];
   export default event;

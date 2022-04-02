@@ -8,7 +8,7 @@ export default function App() {
   const timersJSX = data.map((event) => {
     return <Timer event={event} key={event.name} />;
   });
-  const [timerCount, setTimerCount] = useState(0);
+  const [timerCount, setTimerCount] = useState(5);
   function handleTimerCount(){
     if (timerCount >= timersJSX.length - 1){
       setTimerCount(0)

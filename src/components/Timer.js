@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./timer.css";
 export default function Timer(props) {
   const { event } = props;
-
+  
   const [time, setTime] = useState({
     days: 0,
     hours: 0,
@@ -32,10 +32,13 @@ export default function Timer(props) {
       secs
     });
   }
+  const styles = {
+    color: "yellow",
+  }
   setInterval(updateTime, 1000); //Updates time state every second
   return (
     <div id="timer-container">
-      <h3>{event.name}</h3>
+      <h3 style={event.name === "Easter" ? styles : null}>{event.name}</h3>
       <div className="card">
         <div className="card-time">
           <h1>{time.days}</h1>

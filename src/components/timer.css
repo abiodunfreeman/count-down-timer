@@ -27,7 +27,7 @@
   .card-time {
     color: hsl(345, 95%, 68%);
   }
-  @media (max-width: 50px) {
+  @media (max-width: 500px) {
     #timer-container {
       grid-template-columns: 1fr 1fr;
       grid-template-rows: auto 1fr 1fr;
