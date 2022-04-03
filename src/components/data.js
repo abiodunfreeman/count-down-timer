@@ -1,14 +1,14 @@
 const event = [
     {
-      name: "Angie Birthday",
+      name: "Angie's Birthday",
       date: "04/01/2023"
     },
     {
-      name: "Poppi Birthday",
+      name: "Poppi's Birthday",
       date: "04/06/2022"
     },
     {
-      name: "Kevon Birthday",
+      name: "Kevon's Birthday",
       date: "06/24/2022"
     },
     {
@@ -22,6 +22,10 @@ const event = [
     {
       name: "Easter",
       date:"04/17/2022"
+    }, 
+    {
+      name: "Mom's Birthday",
+      date:"05/09/2022"
     }
   ];
   export default event;

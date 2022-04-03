@@ -14,6 +14,16 @@ footer {
   .icon path:hover, button:hover {
     fill: hsl(345, 95%, 68%);
   }
+  footer button {
+    background-color: hsl(236, 21%, 26%);
+    color:hsl(345, 95%, 68%);
+    padding: .3rem .6rem;
+    border: 1px solid transparent;
+    border-radius: 40px;
+  }
+  footer button:hover{
+    border-color: hsl(345, 95%, 68%);
+  }
   /*----------------HEADER---------------------*/
   header {
     color: white;
